@@ -1,0 +1,30 @@
+﻿body {
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	-webkit-perspective: 1000;
+  perspective: 1000;
+  overflow: hidden;
+}
+span{
+	position:absolute;
+	left:500px;
+	top:200px;
+	text-align:center;
+	font-weight:50;
+	line-height:66px;
+	font-size:50px;
+	color:withe;
+}
+.galaxy {
+	position: absolute;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	background-color: #fff;
+	width: 20px;
+	height: 15px;
+	border-radius: 50%;
+}
